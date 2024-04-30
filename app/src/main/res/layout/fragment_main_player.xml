@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:layout_margin="10dp">
     <EditText
+        android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
@@ -13,7 +14,7 @@
         android:drawableLeft="@drawable/icon_search"
         android:drawablePadding="5dp"
         android:layout_margin="10dp"
-        android:hint="Cari nama Tim..." />
+        android:hint="Cari nama Player..." />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
